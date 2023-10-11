@@ -41,12 +41,10 @@ $logros = $datos['logros'];
 
     <section id="sobre-mi">
     <div class="container">
-        <!-- Agrega una clase "profile-image" para aplicar estilos CSS -->
         <img src="<?php echo $foto; ?>" alt="Foto de perfil de <?php echo $nombre; ?>" class="profile-image">
         <h1><?php echo $nombre . " " . $apellidos; ?></h1>
         <p><?php echo $catprofesional; ?></p>
         
-        <!-- Mueve el enlace a tus recursos aquí -->
         <p><a href="<?php echo $recursos; ?>" target="_blank">Recursos</a></p>
     </div>
 </section>
