@@ -1,0 +1,86 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Montserrat', sans-serif; /* Utiliza la fuente Montserrat */
+    background-color: #f5f5f5; /* Color de fondo suave */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos para la sección de "Sobre mí" */
+#sobre-mi {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.profile-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+}
+
+#sobre-mi h1 {
+    font-size: 36px; /* Tamaño de fuente más grande */
+    margin: 20px 0;
+    color: #333; /* Color de texto más oscuro */
+}
+
+#sobre-mi p {
+    font-size: 20px; /* Tamaño de fuente más grande */
+    color: #666; /* Color de texto gris */
+}
+
+#sobre-mi a {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFD700; /* Cambia el color del enlace a dorado */
+    margin-top: 20px; /* Espacio superior adicional */
+}
+
+/* Estilos para las secciones restantes */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Bordes más redondeados */
+    margin-bottom: 40px; /* Espacio inferior adicional */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #000000; /* Cambia el color del texto a dorado */
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}
+
+footer p {
+    margin: 0; /* Elimina el margen inferior predeterminado */
+}
